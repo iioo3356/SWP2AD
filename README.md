@@ -30,6 +30,9 @@
   + 데이터 베이스에 사용
   
 ## 실행에 필요한 파일
++ halligalli.py
+  + 
 + ScoreDB.py
++ halligalli_scores.txt
 + Sound.py
 + Card.py
