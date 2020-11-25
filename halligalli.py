@@ -24,12 +24,6 @@ class MainWindow(QWidget):
         self.sound = Sound()
         self.cimage = Card()
         self.correct = False
-        #
-        # self.rd=20 #내 남은 카드 수
-        # self.lu=20 #상대 남은 카드 수
-        # self.ru=0 #내가 낸 카드 수
-        # self.ld=0
-
 
         #start button , 함수
         self.startButton = QPushButton('Start', self)
@@ -214,10 +208,10 @@ class MainWindow(QWidget):
         self.ld = 0
 
         self.rdLabel.setText(str(self.rd))  # 내 남은 카드 수
-        self.luLabel.setText(str(self.lu))  # 내 남은 카드 수
-        self.ruLabel.setText(str(self.ru))  # 내 남은 카드 수
-        self.ldLabel.setText(str(self.ld))  # 내 남은 카드 수
-
+        self.luLabel.setText(str(self.lu))  # 상대의 남은 카드 수
+        self.ruLabel.setText(str(self.ru))  # 상대가 낸 카드 수
+        self.ldLabel.setText(str(self.ld))  # 내가 낸 카드 수
+        
         self.mf.setVisible(True)
         self.yf.setVisible(True)
         self.yb.setVisible(True)
